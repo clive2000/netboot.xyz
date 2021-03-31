@@ -1,4 +1,4 @@
-boot_domain: boot.netboot.xyz
+boot_domain: netboot.404321.xyz
 boot_timeout: 300000
 boot_version: 2.x
 bootloader_disks:
@@ -121,8 +121,8 @@ releases:
     base_dir: alpine
     enabled: true
     menu: linux
-    mirror: http://dl-cdn.alpinelinux.org
-    name: Alpine Linux
+    mirror: https://mirrors.cloud.tencent.com
+    name: Alpine Linux CN
     versions:
     - code_name: v3.13
       name: '3.13'
@@ -139,8 +139,8 @@ releases:
     base_dir: archlinux
     enabled: true
     menu: linux
-    mirror: mirrors.evowise.com
-    name: Arch Linux
+    mirror: mirrors.163.com
+    name: Arch Linux CN
     versions:
     - code_name: 2021.03.01
       name: 2021.03.01
@@ -155,8 +155,8 @@ releases:
     base_dir: centos
     enabled: true
     menu: linux
-    mirror: http://mirror.centos.org
-    name: CentOS
+    mirror: http://mirror.163.com
+    name: CentOS CN
     versions:
     - code_name: 8.3.2011
       name: '8.3'
@@ -176,12 +176,12 @@ releases:
     - code_name: 33.20210314.3.0
       name: stable
   debian:
-    archive_mirror: http://archive.debian.org
+    archive_mirror: http://mirrors.163.com/debian-archive
     base_dir: debian
     enabled: true
     menu: linux
-    mirror: http://deb.debian.org
-    name: Debian
+    mirror: http://mirrors.163.com
+    name: Debian CN
     versions:
       stable:
       - code_name: buster
@@ -215,7 +215,7 @@ releases:
     enabled: true
     menu: linux
     mirror: http://download.fedoraproject.org
-    name: Fedora
+    name: Fedora CDN CN
     versions:
     - code_name: 33
       name: 33
@@ -272,8 +272,8 @@ releases:
     base_dir: kali
     enabled: true
     menu: linux
-    mirror: http://http.kali.org
-    name: Kali Linux
+    mirror: https://mirrors.tuna.tsinghua.edu.cn
+    name: Kali Linux CN
     versions:
     - code_name: rolling
       name: Rolling Edition (2020.1)
@@ -281,8 +281,8 @@ releases:
     base_dir: mageia
     enabled: true
     menu: linux
-    mirror: http://mirrors.kernel.org
-    name: Mageia
+    mirror: https://mirrors.tuna.tsinghua.edu.cn
+    name: Mageia CN
     versions:
     - code_name: '7.1'
       name: '7.1'
@@ -293,11 +293,11 @@ releases:
     menu: linux
     name: NixOS
   openbsd:
-    base_dir: pub/OpenBSD
+    base_dir: OpenBSD
     enabled: true
     menu: bsd
-    mirror: http://ftp.openbsd.org
-    name: OpenBSD
+    mirror: https://mirrors.tuna.tsinghua.edu.cn
+    name: OpenBSD CN
     versions:
     - code_name: '6.8'
       image_ver: '68'
@@ -321,8 +321,8 @@ releases:
     base_dir: distribution/leap
     enabled: true
     menu: linux
-    mirror: http://download.opensuse.org
-    name: OpenSUSE
+    mirror: http://mirrors.163.com/openSUSE
+    name: OpenSUSE CN
     versions:
     - code_name: '15.2'
       name: openSUSE Leap 15.2
@@ -374,8 +374,8 @@ releases:
     base_dir: slackware
     enabled: true
     menu: linux
-    mirror: http://mirror.rackspace.com
-    name: Slackware
+    mirror: http://mirrors.163.com
+    name: Slackware CN
     versions:
     - code_name: current
       name: Current
@@ -421,8 +421,8 @@ releases:
   tinycore:
     enabled: true
     menu: linux
-    mirror: http://distro.ibiblio.org/tinycorelinux
-    name: Tiny Core Linux
+    mirror: https://mirrors.tuna.tsinghua.edu.cn/tinycorelinux
+    name: Tiny Core Linux CN
     versions:
     - arch: x86
       code_name: core
@@ -529,8 +529,8 @@ releases:
     base_dir: ubuntu
     enabled: true
     menu: linux
-    mirror: http://archive.ubuntu.com
-    name: Ubuntu
+    mirror: https://mirrors.tuna.tsinghua.edu.cn
+    name: Ubuntu CN
     versions:
     - code_name: groovy
       name: 20.10 Groovy Gorilla
